@@ -7,5 +7,8 @@ import (
 func InitRouter() *gin.Engine {
 	r := gin.New()
 
+	InitSysRouter(r)
+
 	return r
 }
+
